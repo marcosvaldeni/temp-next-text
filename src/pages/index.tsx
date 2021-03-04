@@ -1,17 +1,20 @@
 import Head from 'next/head';
 
+import styles from '../styles/pages/Home.module.css';
+import ExperienceBar from '../components/ExperienceBar';
+
 const Home = () => {
   return (
-    <div>
+    <div className={styles.container}>
       <Head>
         <title>Create Next App</title>
       </Head>
 
-      <main >
 
-        <h1>test</h1>
 
-      </main>
+        <ExperienceBar />
+
+
 
       <footer>
 
