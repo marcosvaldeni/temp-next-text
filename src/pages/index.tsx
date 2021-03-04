@@ -4,6 +4,8 @@ import styles from '../styles/pages/Home.module.css';
 import ExperienceBar from '../components/ExperienceBar';
 import Profile from '../components/Profile';
 import CompletedChallenges from '../components/CompletedChallenges';
+import Countdown from '../components/Countdown';
+import ChallengeBox from '../components/ChallengeBox';
 
 
 const Home = () => {
@@ -21,10 +23,10 @@ const Home = () => {
             <div>
               <Profile />
               <CompletedChallenges />
-              {/* <Countdown /> */}
+              <Countdown />
             </div>
             <div>
-              {/* <ChallengeBox /> */}
+              <ChallengeBox />
             </div>
           </section>
 
